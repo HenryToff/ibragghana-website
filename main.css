@@ -5,6 +5,9 @@
 body{
    font-family: 'Poppins', sans-serif; 
  }
+ section{
+   padding: 20px 8%;
+}
 
  /*hero section*/
  #hero{
@@ -47,17 +50,18 @@ body{
    }
  #hero h4{
     color: white;
-    padding: 0 60px;
+    padding: 0 50px;
     font-size: 25px;
  }
  #hero .main-btn{
     font-weight: 400;
     font-size: 20px;
     display: inline-block;
-    padding: 10px 30px;
+    padding: 7px 17px;
     border-radius: 8px;
     transition: 0.5s;
-    margin-top: 25px;
+    margin-top: 10px;
+    margin-bottom: 40px;
     border: 1px solid #fff;
     color: #fff; 
     text-decoration: none;
@@ -81,8 +85,8 @@ body{
  }
  @media (max-width: 768px){
     #hero h1{
-        font-size: 55px;
-        line-height: 60px;
+        font-size: 45px;
+        line-height: 50px;
     }
     #hero h4{
         font-size: 20px;
@@ -92,8 +96,8 @@ body{
 
   /*Nav bar*/
 #navigation{
-   background: #bbcf02;
-   padding: 20px 100px;
+   background: #9bac01;
+   padding: 20px 80px;
    z-index: 100;
    width: 100%;
 }
@@ -102,7 +106,7 @@ body{
 }
 #navigation li a{
    color: #fff;
-   font-size: 21px;
+   font-size: 22px;
 }
 #navigation li a:hover{
    color: #000;
@@ -114,7 +118,7 @@ body{
 }
 .social-links a{
    color: #fff;
-   padding-left: 10px;
+   padding-left: 5px;
    font-size: 20px;
 }
 .social-links a:hover{
@@ -136,13 +140,14 @@ body{
  /*Services section*/
 .services{
    padding-bottom: 30px;
+   margin-top: 30px;
 }
 .services .des-box{
-   padding: 60px 30px;
+   padding: 40px 20px;
    position: relative;
    overflow: hidden;
    background: #fff;
-   box-shadow: 30px 0 35px 0 rgba(32, 1, 73, 0.12);
+   box-shadow: 30px 0 30px 0 rgba(32, 1, 73, 0.12);
    transition: all 0.3s ease-in-out;
    border-radius: 8px;
    z-index: 1;
@@ -161,10 +166,10 @@ body{
 }
 
 .services .icon{
-   margin-bottom: 15px;
+   margin-bottom: 10px;
 }
 .services .icon i{
-   font-size: 48px;
+   font-size: 55px;
    line-height: 1;
    color: #fd4a04;
    transition: all 0.3s ease-in-out;
@@ -172,7 +177,7 @@ body{
 .services .title{
    font-weight: 700;
    margin-bottom: 15px;
-   font-size: 18px;
+   font-size: 25px;
 }
 .services .title a{
    text-decoration: none;
@@ -189,7 +194,7 @@ body{
    color: #353434;
 } 
 .services i:hover{
-   color: #bbcf02;
+   color: #9bac01;
 }
 
 
@@ -277,7 +282,7 @@ li span{
    color: #fff;
 }
 .team .member .social a:hover{
-   background: #bbcf02;
+   background: #9bac01;
 }
 .team .member .social i{
    font-size: 18px;
@@ -376,7 +381,7 @@ li span{
    transition: 0.3s;
 }
 #footer .footer-top .social-links a:hover{
-   background: #bbcf02;
+   background: #9bac01;
 }
 #footer .footer-bottom{
    border-top: 1px solid #e66f20;
@@ -403,7 +408,7 @@ li span{
       padding-top: 5px;
    }
    .text-box h1{
-      font-size: 35px;   
+      font-size: 30px;   
   }
    .col-4{
       flex-basis: 100%;
@@ -431,8 +436,7 @@ li span{
       margin-top: 20px;
   }
   #hero h4, h1{
-   padding: 0 20px;
-  
+   padding: 0 20px;  
 }
    
 }
@@ -447,7 +451,7 @@ li span{
       padding-top: 5px;
    }
    .text-box h1{
-      font-size: 35px;   
+      font-size: 30px;   
   }
    .contact-col{
     width: 100%;
@@ -542,14 +546,13 @@ iframe{
 
 /*About page*/
 .about-us{
-   width: 80%;
+   width: 100%;
    margin: auto;
-   padding-top: 100px;
-   padding-bottom: 50px;
+   padding-top: 20px;
 }
 .about-col{
    flex-basis: 48%;
-   padding: 30px 30px;
+   padding: 20px 20px;
 }
 .services-col{
    background: #f0f0f0;
@@ -588,8 +591,6 @@ iframe{
    width: 100%;
    margin-bottom: 5px;
 }
-
-
 
 
 .tittle{
@@ -643,11 +644,11 @@ iframe{
 }
 .footer form input{
    width: 250px;
-   height: 45px;
-   border-radius: 4px;
+   height: 40px;
+   border-radius: 8px;
    text-align: center;
    margin-top: 10px;
-   margin-bottom: 10px;
+   margin-bottom: 20px;
    outline: none;
    border: none;
 }
@@ -656,8 +657,8 @@ form button{
    background: transparent;
    border: 1px solid #fff;
    color: #fff;
-   border-radius: 30px;
-   padding: 10px 30px;
+   border-radius: 20px;
+   padding: 10px 20px;
    font-size: 15px;
    cursor: pointer;
 }
